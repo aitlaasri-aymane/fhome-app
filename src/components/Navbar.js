@@ -11,14 +11,14 @@ const navigation = [
   ]
 export default function Navbar() {
   return (
-    <nav className="bg-white border-gray-200 px-2 sm:px-4 py-2.5">
+    <nav className="bg-white border-gray-200 px-2 sm:px-4 py-4 shadow-md sticky z-50 top-0">
     <div className="container flex flex-wrap justify-between items-center mx-auto">
       <Link to="/" className="flex items-center">
         <img src={logo} className="mr-3 h-6 sm:h-9" alt="Flowbite Logo" />
         <span className="self-center text-xl font-semibold whitespace-nowrap ">FHome</span>
       </Link>
       <div className="flex md:order-2">
-        <button type="button" className="transition ease-in-out delay-150  hover:-translate-x-1 hover:scale-110 duration-300 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0 ">Get started
+        <button type="button" to="/" className="transition ease-in-out delay-150 hover:-translate-x-1 hover:scale-110 duration-300 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0 ">Get started
         </button>
         <button data-collapse-toggle="mobile-menu-4" type="button" className="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 " aria-controls="mobile-menu-4" aria-expanded="false">
           <span className="sr-only">Open main menu</span>

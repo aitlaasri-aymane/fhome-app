@@ -2,10 +2,14 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 export default function Welcome() {
   return (
-        <div className="text-center pb-12 mt-12 md:pb-16">
+        <div className="text-center pb-12 mt-20 md:pb-16">
             <h1 className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4">Make your home </h1>
-            <h1 className="animate-pulse text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4 text-transparent bg-clip-text bg-gradient-to-r from-blue-800 via-blue-800 to-blue-400 transition ease-in-out delay-150 hover:scale-110 duration-300">SMART</h1>
-            <h2 className="animate-bounce text-2xl md:text-2xl font-extrabold leading-tighter tracking-tighter mb-4 text-transparent bg-clip-text bg-gradient-to-r from-blue-800 via-blue-800 to-blue-400 ">Touch. Control.</h2>
+            <h1 className="mt-3 animate-pulse text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4 text-transparent bg-clip-text bg-gradient-to-r from-blue-800 via-blue-800 to-blue-400 transition ease-in-out delay-150 hover:scale-110 duration-300">SMART</h1>
+            <h2 className="mt-6 animate-bounce text-2xl md:text-2xl 
+            font-extrabold leading-tighter tracking-tighter mb-4 text-transparent 
+            bg-clip-text bg-gradient-to-r from-blue-800 via-blue-800 to-blue-400 "
+            >Touch. <span className='text-blue-600'>Control.</span>
+            </h2>
             <div className="place-content-center mt-12 flex lg:flex-shrink-0">
                 <div className="inline-flex rounded-md shadow">
                     <Link
