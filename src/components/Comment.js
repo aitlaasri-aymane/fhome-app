@@ -1,26 +1,17 @@
 import React from 'react'
 
-export default function Comment() {
+export default function Comment(props) {
   return (
-    <figure className="md:flex bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-slate-800">
-        <img className="w-24 h-24 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto" src="/sarah-dayan.jpg" alt="" width="384" height="512"/>
-        <div className="pt-6 md:p-8 text-center md:text-left space-y-4">
-            <blockquote>
-            <p className="text-lg font-medium">
-                “Tailwind CSS is the only framework that I've seen scale
-                on large teams. It’s easy to customize, adapts to any design,
-                and the build size is tiny.”
-            </p>
-            </blockquote>
-            <figcaption className="font-medium">
-            <div className="text-sky-500 dark:text-sky-400">
-                Sarah Dayan
-            </div>
-            <div className="text-slate-700 dark:text-slate-500">
-                Staff Engineer, Algolia
-            </div>
-            </figcaption>
+    <div className="flex flex-col items-center pb-10">
+        <div className="mb-3 w-24 h-24 bg-gray-200 rounded-full shadow-lg" ></div>
+        <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">{props.name}</h5>
+        <span className="text-sm text-gray-500 dark:text-gray-400">Owner of Software firm</span>
+        <div className="flex mt-4 space-x-3 lg:mt-6">
+            <span className="inline-flex text-center px-3 py-1 rounded-3xl text-sm font-medium text-gray-500 bg-gray-100 dark:bg-gray-800 dark:text-white">
+                {props.message}
+            </span>
+
         </div>
-    </figure>
+    </div>
   )
 }
