@@ -3,7 +3,7 @@ import Welcome from '../components/Welcome'
 import Products from '../components/Products'
 import Team from '../components/Team'
 import Comments from '../components/Comments'
-
+import Featurings from '../components/Featurings'
 export default function Home() {
   return (
     <div className='home'>
@@ -20,6 +20,9 @@ export default function Home() {
         <Team/>
         <div className="mt-12">
             <Comments />
+        </div>
+        <div className='mt-12 mx-48'>
+            <Featurings/>
         </div>
     </div>
   )
