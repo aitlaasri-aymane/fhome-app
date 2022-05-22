@@ -71,26 +71,8 @@ export default function Services() {
                     focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50
                   " rows="3"></textarea>
               </label>
-              <div className="block">
-                <div className="mt-2">
-                  <div>
-                    <label className="inline-flex items-center">
-                      <input type="checkbox" className="
-                          rounded
-                          border-gray-300
-                          text-indigo-600
-                          shadow-sm
-                          focus:border-indigo-300
-                          focus:ring
-                          focus:ring-offset-0
-                          focus:ring-indigo-200
-                          focus:ring-opacity-50
-                        " checked=""/>
-                      <span className="ml-2">Email me news and special offers</span>
-                    </label>
-                  </div>
-                </div>
-              </div>
+              
+              <button className='bg-blue-700 text-white p-2 mt-6 rounded-md shadow-lg hover:bg-blue-800'>Apply for Devis</button>
             </div>
           </div>
         </div>
