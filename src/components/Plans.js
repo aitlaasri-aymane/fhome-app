@@ -1,10 +1,10 @@
 import React from 'react'
 
 const plans = [
-  {name: 'Small Enterprise', price: '2049.99', description: 'For everyone else who needs a simple solution',
+  {name: 'Small Enterprise', price: '10.500,20', description: 'For everyone else who needs a simple solution',
     availabilities:[
-      {name : 'Cameras', available : true},
-      {name : 'Smart Doors', available : true},
+      {name : '4 x Cameras', available : true},
+      {name : '1 x Smart Doors', available : true},
       {name : 'Installation Service', available : true},
       {name : 'Smart Epson Lights', available : false},
       {name : 'Robot Vacuum', available : false},
@@ -12,23 +12,34 @@ const plans = [
       {name : 'Maintnance Service', available : false},
     ]
   },
-  {name: 'Home Solution', price: '5999.99', description: 'For those who need a complete solution for there home',
+  {name: 'Home Solution', price: '15.000,20', description: 'For those who need a complete solution for there home',
     availabilities:[
-      {name : 'Cameras', available : true},
-      {name : 'Smart Doors', available : true},
-      {name : 'Smart Epson Lights', available : true},
-      {name : 'Robot Vacuum', available : true},
+      {name : '4 x Cameras', available : true},
+      {name : '1 x Smart Doors', available : true},
+      {name : '1 x Smart Epson Light', available : true},
+      {name : '1 x Robot Vacuum', available : true},
       {name : 'Installation Service', available : true},
       {name : 'Server', available : false},
       {name : 'Maintnance Service', available : false},
     ]
   },
-  {name: 'FULL Business', price: '9999.99', description: 'For businesses with more than 10 IOT equipments',
+  {name: 'FULL Business', price: '+16.000,20', description: 'For businesses with more than 10 IOT equipments',
     availabilities:[
-      {name : 'Cameras', available : true},
-      {name : 'Smart Doors', available : true},
-      {name : 'Smart Epson Lights', available : true},
-      {name : 'Robot Vacuum', available : true},
+      {name : '+4 x Cameras', available : true},
+      {name : '1 x Smart Doors', available : true},
+      {name : '1 x Smart Epson Lights', available : true},
+      {name : 'Capters & sensors', available : true},
+      {name : '1 year AWS server subscription', available : true},
+      {name : 'Installation Service', available : true},
+      {name : 'Maintnance Service', available : true},
+      {name : 'EXTRAS', available : true},
+    ]
+  },
+  {name: 'Hotel', price: '1.003. 000,20', description: 'For businesses with more than 10 IOT equipments',
+    availabilities:[
+      {name : '± 100 x Cameras', available : true},
+      {name : '± 100 x Smart Doors', available : true},
+      {name : '± 200 x Smart Epson Lights', available : true},
       {name : '1year AWS server subscription', available : true},
       {name : 'Installation Service', available : true},
       {name : 'Maintnance Service', available : true},
@@ -40,10 +51,10 @@ const plans = [
 export default function Plans() {
   return (
 
-    <div className='w-3/4 flex mx-auto flex-no-wrap mt-10'>
+    <div className='w-4/5 flex mx-auto flex-wrap justify-between mt-10'>
       {
         plans.map((plan,index) => (
-          <div className={"p-4 max-w-sm rounded-lg borde hover:shadow-2xl flex-1 shrink-0 hover:scale-110 transition-all delay-150 duration-500 sm:p-8 dark:bg-gray-800 hover:z-50 dark:border-gray-700 "+ ((index %2 !== 0) ? "bg-gray-100 grow":"bg-white")}>
+          <div className={"p-4 max-w-sm mb-4 rounded-lg hover:shadow-2xl hover:scale-110 transition-all delay-150 duration-500 sm:p-8 dark:bg-gray-800 hover:z-40 dark:border-gray-700 "+ ((index %2 !== 0) ? "bg-gray-100":"bg-white")}>
             <h5 className="mb-4 text-xl font-medium text-gray-500 dark:text-gray-400">{plan.name} plan</h5>
             <div className="flex items-baseline text-gray-900 dark:text-white">
                 <span className="text-5xl font-extrabold tracking-tight">{plan.price}</span>
