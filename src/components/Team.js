@@ -1,7 +1,7 @@
 import React from 'react'
 
 const team = [
-    {"name" : "ALAA Naoufal", "job" : "Big Data and Cloud computing Engineering Student", "country":"🇲🇦", "image":"https://media-exp1.licdn.com/dms/image/C4E03AQHzFZ7fxQNlZw/profile-displayphoto-shrink_800_800/0/1640987860603?e=1658361600&v=beta&t=Fe78tZ3xGN3L1pymZ_QJDs8i0MmFidTVwLfafmdKMxY"},
+    {"name" : "ALAA Naoufal", "job" : "Big Data and Cloud computing Engineering Student", "country":"🇲🇦", "image":"https://media-exp1.licdn.com/dms/image/C4D03AQFH0Ufcm9OQuw/profile-displayphoto-shrink_800_800/0/1653420802563?e=1658966400&v=beta&t=KPkE2hCjYxJUwWHd6KjXJt-hp8nwU39e10qIvHlMghs"},
     {"name" : "ALLAT Mouad", "job" : "Big Data and Cloud computing Engineering Student", "country":"🇲🇦", "image":"https://media-exp1.licdn.com/dms/image/C4D03AQElbmvvF8MesQ/profile-displayphoto-shrink_800_800/0/1647249478634?e=1658361600&v=beta&t=xRGvILZZLM__SDmYXQg5kbG2DfQXCDQcAMRmpDcMfRc"},
     {"name" : "AROUKHSISS Abdenasser", "job" : "Big Data and Cloud computing Engineering Student", "country":"🇲🇦", "image":"https://media-exp1.licdn.com/dms/image/C5603AQFQVCUuLKDANA/profile-displayphoto-shrink_800_800/0/1651285476793?e=1658361600&v=beta&t=oYMlVWip1ZATjOHvzK6bg_ybMHfFdEkRcA7MVGJxg-o"},
     {"name" : "BOUHLALA ARIJ", "job" : "Big Data and Cloud computing Engineering Student", "country":"🇲🇦", "image":"https://media-exp1.licdn.com/dms/image/C4E03AQG_F--lNrklLA/profile-displayphoto-shrink_800_800/0/1615415476027?e=1658361600&v=beta&t=lKmHqn7_L9bvwacPEQbF2ylEkX2pIPOH5sNcEqRyOZU"},
